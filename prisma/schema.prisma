@@ -26,7 +26,7 @@ model Inventory {
 }
 
 enum ActionType {
-  In
+  IN
   OUT
 }
 

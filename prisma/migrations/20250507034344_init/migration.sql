@@ -1,5 +1,5 @@
 -- CreateEnum
-CREATE TYPE "ActionType" AS ENUM ('In', 'OUT');
+CREATE TYPE "ActionType" AS ENUM ('IN', 'OUT');
 
 -- CreateTable
 CREATE TABLE "Inventory" (

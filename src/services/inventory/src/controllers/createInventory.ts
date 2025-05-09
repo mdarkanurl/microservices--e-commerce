@@ -34,7 +34,7 @@ const createInventory = async (req: Request, res: Response, next: NextFunction) 
         return;
     } catch (error: any) {
         console.log(error);
-        res.status(error.statusCode).json(error);
+        res.status(500).json(error);
     }
 }
 
